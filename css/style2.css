@@ -1,0 +1,352 @@
+.cuerpo {
+
+	position: relative;
+	width: 393px;
+	height: 1269px;
+
+	background: #F6F7F8;
+
+}
+
+
+.header {
+
+	position: absolute;
+	width: 393px;
+	height: 456px;
+	left: 0px;
+	top: 0px;
+
+
+}
+
+.header-img {
+
+	position: absolute;
+	width: 393px;
+	height: 456px;
+	left: 0px;
+	top: 0px;
+
+
+}
+.parte1-texto1 {
+
+	position: absolute;
+	width: 170px;
+	height: 42px;
+	left: calc(50% - 170px/2 + 1.5px);
+	top: 270px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 150%;
+
+	color: #FFFFFF;
+
+}
+
+.parte3-texto3 {
+
+	position: absolute;
+	width: 290px;
+	height: 24px;
+	left: calc(50% - 290px/2 + 0.5px);
+	top: 316px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 150%;
+
+	color: #FFFFFF;
+
+}
+
+.parte4-img {
+
+	position: absolute;
+	width: 185px;
+	height: 185px;
+	left: calc(50% - 185px/2 + 1px);
+	top: 51px;
+
+	background: url(image.png);
+
+}
+
+.frame {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+	gap: 10px;
+
+	position: absolute;
+	width: 256px;
+	height: 43px;
+	left: calc(50% - 296px/2 + 0.5px);
+	top: 356px;
+
+	background: #54CC0A;
+	border-radius: 4px;
+
+}
+
+.frame1-texto1 {
+
+	width: 224px;
+	height: 27px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: #FFFFFF;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+}
+
+.frame-texto2 {
+
+	position: absolute;
+	width: 233px;
+	height: 36px;
+	left: calc(50% - 233px/2);
+	top: 502px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 150%;
+
+	color: #000000;
+
+}
+
+.frame-texto3 {
+
+	position: absolute;
+	width: 87px;
+	height: 36px;
+	left: calc(50% - 87px/2 - 145px);
+	top: 1082px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+
+	color: #000000;
+
+}
+
+
+.item1 {
+
+/* item */
+
+position: absolute;
+width: 377px;
+height: 114px;
+left: 8px;
+top: 554px;
+
+
+}
+
+
+.frame1 {
+	/* Frame 618 */
+
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	gap: 16px;
+
+	position: absolute;
+	width: 261px;
+	height: 25px;
+	left: 35px;
+	top: 90px;
+
+}
+
+.frame1-texto {
+	/* R$ 35,00 */
+
+	margin: 0 auto;
+	width: 64px;
+	height: 24px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 150%;
+	/* identical to box height, or 24px */
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	padding-left: 76px;
+
+}
+
+.cart-plus {
+	/* cart-plus */
+
+	margin: 0 auto;
+	width: 45px;
+	height: 25px;
+
+	background: #030712;
+	border-radius: 4px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin-left: 140px;
+
+}
+
+.cart-plus-carreta {
+	/* Vector */
+
+	position: absolute;
+	left: 82%;
+	right: 28.89%;
+	top: 16%;
+	bottom: 15.12%;
+	margin-left: 95px;
+
+}
+
+.cart-plus-texto {
+	/* Cheese Burger Duplo Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa */
+
+position: absolute;
+width: 261px;
+height: 60px;
+left: 88px;
+top: -92px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 161.5%;
+/* or 23px */
+
+color: #000000;
+
+
+}
+
+.item2{
+	/* item */
+
+position: absolute;
+width: 377px;
+height: 114px;
+left: 8px;
+top: 682px;
+}
+
+.item3{
+	/* item */
+
+position: absolute;
+width: 377px;
+height: 114px;
+left: 8px;
+top: 804px;
+}
+
+
+.item4{
+	/* item */
+
+position: absolute;
+width: 377px;
+height: 114px;
+left: 8px;
+top: 925px;
+}
+
+.bebida{
+	/* item */
+
+	position: absolute;
+	width: 377px;
+	height: 114px;
+	left: 8px;
+	top: 1126px;
+
+
+}
+.bebida1-texto{
+	/* R$ 6,00 */
+
+margin: 0 auto;
+width: 55px;
+height: 24px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.bebida4 {
+/* Coca cola Lata */
+
+position: absolute;
+width: 261px;
+height: 23px;
+left: 124px;
+top: 1126px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 161.5%;
+/* identical to box height, or 23px */
+
+color: #000000;
+
+
+}
